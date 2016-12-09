@@ -144,6 +144,7 @@ on boot
 
 #Load WLAN driver
    setprop wlan.driver.status "ok"
+   chown wifi wifi /sys/module/wlan/parameters/fwpath
 
 #Peripheral manager
 service per_mgr /system/vendor/bin/pm-service
