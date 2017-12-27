@@ -80,4 +80,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml
 
+# VNDK-SP:
+PRODUCT_PACKAGES += \
+    vndk-sp
+
 $(call inherit-product, vendor/asus/X01BD/X01BD-vendor.mk)
