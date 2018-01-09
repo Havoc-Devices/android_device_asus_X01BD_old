@@ -13,3 +13,6 @@ allow hal_power_default {
   sysfs_kgsl
   device_latency
 }:dir search;
+
+# To get/set powerhal state property
+set_prop(hal_power_default, power_prop)

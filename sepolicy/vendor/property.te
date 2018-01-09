@@ -4,3 +4,6 @@ type cdfinger_prop, property_type;
 type hal_audio_prop, property_type;
 type nfc_sensors_prop, property_type;
 type spectrum_prop, property_type;
+
+# Power
+type power_prop, property_type;
