@@ -143,7 +143,6 @@ on boot
 #Huaqin add for als/ps permission by zhuqiang at 2018/8/03 end
 
 #Load WLAN driver
-   insmod /vendor/lib/modules/qca_cld3/qca_cld3_wlan.ko
    setprop wlan.driver.status "ok"
 
 #Peripheral manager
