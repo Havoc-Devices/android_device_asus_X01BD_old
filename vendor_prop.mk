@@ -195,7 +195,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.data.df.mux_count=8 \
 	persist.data.df.ul_mode=5 \
 	persist.data.wda.enable=true \
-	persist.rmnet.data.enable=true
+	persist.rmnet.data.enable=true \
+	persist.vendor.radio.add_power_save=1
 
 # Sensor
 PRODUCT_PROPERTY_OVERRIDES += \
