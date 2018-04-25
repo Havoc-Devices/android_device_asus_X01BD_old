@@ -89,6 +89,9 @@ on post-fs
     start emmc_prop_init
 #Huaqin add for ZQL1650-43 by lanshiming at 2018/1/18 end
 
+    # Disable sched autogroup
+    write /proc/sys/kernel/sched_autogroup_enabled 0
+
 on init
     write /sys/module/qpnp_rtc/parameters/poweron_alarm 1
 
