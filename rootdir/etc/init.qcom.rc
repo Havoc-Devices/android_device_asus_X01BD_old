@@ -1047,7 +1047,7 @@ service atfwd /vendor/bin/ATFWD-daemon
     group system radio
     disabled
 
-on property:ro.runtime.mbn_copy_completed=1
+on property:ro.vendor.ril.mbn_copy_completed=1
     write /data/vendor/radio/copy_complete 1
 
 on property:persist.radio.atfwd.start=true
