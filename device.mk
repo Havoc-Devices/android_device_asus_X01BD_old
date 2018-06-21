@@ -415,7 +415,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.2-service.x01bd-libperfmgr
+    android.hardware.power@1.3-service.x01bd-libperfmgr
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \

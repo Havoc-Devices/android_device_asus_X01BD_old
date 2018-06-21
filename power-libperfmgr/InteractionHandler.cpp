@@ -16,7 +16,7 @@
 
 //#define LOG_NDEBUG 0
 
-#define LOG_TAG "android.hardware.power@1.2-service.x01bd-libperfmgr"
+#define LOG_TAG "android.hardware.power@1.3-service.x01bd-libperfmgr"
 #define ATRACE_TAG (ATRACE_TAG_POWER | ATRACE_TAG_HAL)
 
 #include <fcntl.h>
