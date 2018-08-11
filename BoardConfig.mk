@@ -205,9 +205,6 @@ TARGET_USES_INTERACTION_BOOST := true
 # Peripheral manager
 TARGET_PER_MGR_ENABLED := true
 
-# Properties
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
-
 # Peripheral manager
 TARGET_PER_MGR_ENABLED := true
 
