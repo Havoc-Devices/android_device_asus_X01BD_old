@@ -113,7 +113,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-service \
     android.hardware.bluetooth@1.0-service-qti \
-    libbt-vendor \
     libbthost_if
 
 # Connectivity Engine support (CNE)
