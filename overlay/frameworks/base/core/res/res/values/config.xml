@@ -539,4 +539,7 @@
 
     <!-- Flashlight on power button -->
     <integer name="config_flashlightProximityTimeout">3000</integer>
+
+    <!-- Indicate whether the SD card is accessible without removing the battery. -->
+    <bool name="config_batterySdCardAccessibility">true</bool>
 </resources>
