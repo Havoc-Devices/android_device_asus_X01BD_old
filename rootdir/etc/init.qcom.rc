@@ -166,11 +166,6 @@ on boot
 
     setprop net.tcp.2g_init_rwnd 10
 
-#   Assign TCP buffer thresholds to be ceiling value of technology maximums
-#   Increased technology maximums should be reflected here.
-    write /proc/sys/net/core/rmem_max  8388608
-    write /proc/sys/net/core/wmem_max  8388608
-
     # To prevent out of order acknowledgements from making
     # connection tracking to treat them as not belonging to
     # the connection they belong to.
@@ -541,6 +536,11 @@ service savelogscomplete /system/bin/sh /system/etc/savelogs_complete.sh
 on property:persist.asus.savelogs=0
     start savelogscomplete
 # Huaqin add for ZQL1650-132 BugReporter by yangzhiyuan at 2018/02/02 end
+
+    # Assign TCP buffer thresholds to be ceiling value of technology maximums
+    # Increased technology maximums should be reflected here.
+    write /proc/sys/net/core/rmem_max  8388608
+    write /proc/sys/net/core/wmem_max  8388608
 
 service nqnfcinfo /vendor/bin/nqnfcinfo
     class late_start
