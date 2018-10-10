@@ -14,7 +14,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="asuspref_title">ASUS Extras</string>
-	
+    <string name="asuspref_summary">Display color calibration</string>
     <!-- Category title -->
     <string name="graphics_title">Graphics</string>
 
