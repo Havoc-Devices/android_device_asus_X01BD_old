@@ -389,7 +389,9 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.qcom.usb.rc \
     init.target.rc \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    init.spectrum.rc \
+    init.spectrum.sh
 
 # QTI whilelistapp
 PRODUCT_COPY_FILES += \
