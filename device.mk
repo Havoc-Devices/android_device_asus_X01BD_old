@@ -33,3 +33,5 @@ PRODUCT_PACKAGES += \
     IPACM_cfg.xml \
     libipanat \
     liboffloadhal
+
+$(call inherit-product, vendor/asus/X01BD/X01BD-vendor.mk) 
