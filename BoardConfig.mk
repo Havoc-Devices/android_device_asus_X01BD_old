@@ -44,5 +44,10 @@ PRODUCT_COMPATIBILITY_MATRIX_LEVEL_OVERRIDE := 27
 # Bootloader
 TARGET_NO_BOOTLOADER := true
 
+# GPS
+USE_DEVICE_SPECIFIC_GPS := true
+TARGET_NO_RPC := true
+BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := $(TARGET_BOARD_PLATFORM)
+
 # inherit from the proprietary version
 -include vendor/asus/X01BD/BoardConfigVendor.mk
