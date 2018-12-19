@@ -58,5 +58,8 @@ BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := $(TARGET_BOARD_PLATFORM)
 WITH_DEXPREOPT := true
 WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := true
 
+# Seccomp
+BOARD_SECCOMP_POLICY := $(DEVICE_PATH)/seccomp
+
 # inherit from the proprietary version
 -include vendor/asus/X01BD/BoardConfigVendor.mk
