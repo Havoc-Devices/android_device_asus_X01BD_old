@@ -54,4 +54,9 @@ PRODUCT_PACKAGES += \
     libipanat \
     liboffloadhal
 
-$(call inherit-product, vendor/asus/X01BD/X01BD-vendor.mk) 
+
+# QTI whilelistapp
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml
+
+$(call inherit-product, vendor/asus/X01BD/X01BD-vendor.mk)
