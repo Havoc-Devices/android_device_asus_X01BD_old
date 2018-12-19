@@ -75,6 +75,12 @@ PRODUCT_PACKAGES += \
     libipanat \
     liboffloadhal
 
+# Telephony
+PRODUCT_PACKAGES += \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
 
 # QTI whilelistapp
 PRODUCT_COPY_FILES += \
