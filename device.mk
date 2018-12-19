@@ -78,10 +78,18 @@ PRODUCT_PACKAGES += \
 # Telephony
 PRODUCT_PACKAGES += \
     qti-telephony-common \
+    ims-ext-common \
     telephony-ext
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
+
+# RCS
+PRODUCT_PACKAGES += \
+    rcs_service_aidl \
+    rcs_service_aidl.xml \
+    rcs_service_api \
+    rcs_service_api.xml
 
 # QTI whilelistapp
 PRODUCT_COPY_FILES += \
