@@ -183,6 +183,7 @@ PRODUCT_PACKAGES += \
     liblocation_api \
     libloc_core \
     libloc_pla \
+    libsensorndkbridge \
     libvehiclenetwork-native
 
 PRODUCT_COPY_FILES += \
