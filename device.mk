@@ -106,16 +106,17 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fingerprintd
 
-# GPS
+# GPS / Location
 PRODUCT_PACKAGES += \
-    android.hardware.gnss@1.1-impl-qti \
+    android.hardware.gnss@1.0-impl-qti \
+    android.hardware.gnss@1.0-service-qti \
+    libcurl \
     libgnss \
     libgnsspps \
-    libcurl \
-    libloc_core \
-    libloc_pla \
     libgps.utils \
     liblocation_api \
+    libloc_core \
+    libloc_pla \
     libvehiclenetwork-native
 
 PRODUCT_COPY_FILES += \
