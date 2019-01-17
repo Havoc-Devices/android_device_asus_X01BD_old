@@ -243,6 +243,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml
 
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power@1.1-service-qti
+
 # Recovery
 PRODUCT_PACKAGES += \
     librecovery_updater_X01BD
