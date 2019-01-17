@@ -251,6 +251,16 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     librecovery_updater_X01BD
 
+# RIL
+PRODUCT_PACKAGES += \
+    android.hardware.radio@1.0 \
+    android.hardware.radio@1.1 \
+    android.hardware.radio.deprecated@1.0 \
+    rild \
+    librmnetctl \
+    libxml2 \
+    libprotobuf-cpp-full
+
 # QMI
 PRODUCT_PACKAGES += \
     libjson
