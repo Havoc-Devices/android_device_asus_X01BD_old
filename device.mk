@@ -242,6 +242,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     librecovery_updater_X01BD
 
+# QMI
+PRODUCT_PACKAGES += \
+    libjson
+
 # VNDK-SP:
 PRODUCT_PACKAGES += \
     vndk-sp
