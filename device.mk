@@ -99,7 +99,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     FM2 \
     libqcomfm_jni \
-    qcom.fmradio
+    qcom.fmradio \
+    android.hardware.broadcastradio@1.0-impl
 
 # Fingerprint
 PRODUCT_PACKAGES += \
