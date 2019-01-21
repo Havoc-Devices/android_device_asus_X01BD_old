@@ -106,7 +106,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	dev.pm.dyn_samplingrate=1 \
 	persist.demo.hdmirotationlock=false \
 	ro.opengles.version=196610 \
-	ro.sf.lcd_density=480 \
+	ro.sf.lcd_density=420 \
+	vendor.display.lcd_density=420 \
 	sdm.debug.rotator_downscale=1 \
 	vendor.display.enable_default_color_mode=1
 
@@ -173,7 +174,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.data.iwlan.enable=true \
 	persist.radio.atfwd.start=true \
 	persist.radio.multisim.config=dsds \
-	persist.radio.plmn_disable_data=true \
 	persist.radio.schd.cache=3500 \
 	persist.radio.VT_CAM_INTERFACE=1 \
 	persist.radio.VT_CAM_INTERFACE=2 \
