@@ -41,9 +41,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.bt.max.a2dp.connections=2 \
 	persist.bt.max.hs.connections=2 \
 	persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxhd-aac \
-	vendor.qcom.bluetooth.soc=cherokee \
+	qcom.bluetooth.soc=cherokee \
 	ro.bluetooth.emb_wp_mode=true \
-	ro.bluetooth.wipower=true
+	ro.bluetooth.wipower=true \
+	persist.bt.hfp.playbackforvr=false \
+	persist.bt.hfp.playbackforvoip=false
+
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
