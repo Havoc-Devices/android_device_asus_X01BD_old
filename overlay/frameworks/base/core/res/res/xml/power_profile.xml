@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device name="Android">
     <item name="none">0</item>
-    <item name="screen.on">103</item>
-    <item name="screen.full">280</item>
+    <item name="screen.on">108.58</item>
+    <item name="screen.full">281</item>
     <array name="cpu.clusters.cores">
         <value>4</value>
         <value>4</value>
     </array>
     <array name="cpu.core_speeds.cluster0">
-        <value>633000</value>
-        <value>902000</value>
-        <value>1113000</value>
-        <value>1401000</value>
+        <value>633600</value>
+        <value>902400</value>
+        <value>1113600</value>
+        <value>1401600</value>
         <value>1536000</value>
-        <value>1747000</value>
-        <value>1843000</value>
+        <value>1747200</value>
+        <value>1843200</value>
     </array>
     <array name="cpu.core_power.cluster0">
         <value>34</value>
@@ -26,11 +26,11 @@
         <value>253</value>
     </array>
     <array name="cpu.core_speeds.cluster1">
-        <value>1113000</value>
-        <value>1401000</value>
-        <value>1747000</value>
-        <value>1958000</value>
-        <value>2150000</value>
+        <value>1113600</value>
+        <value>1401600</value>
+        <value>1747200</value>
+        <value>1958400</value>
+        <value>2150400</value>
     </array>
     <array name="cpu.core_power.cluster1">
         <value>226</value>
@@ -39,23 +39,23 @@
         <value>614</value>
         <value>777</value>
     </array>
-    <item name="cpu.awake">1.6</item>
-    <item name="cpu.idle">16.3</item>
-    <item name="bluetooth.active">5.4</item>
-    <item name="bluetooth.on">40.4</item>
-    <item name="wifi.on">8.0</item>
-    <item name="wifi.active">8.5</item>
-    <item name="wifi.scan">50</item>
+    <item name="cpu.awake">4.41</item>
+    <item name="cpu.idle">55.69</item>
+    <item name="bluetooth.active">51.5</item>
+    <item name="bluetooth.on">4.76</item>
+    <item name="wifi.on">3.78</item>
+    <item name="wifi.active">135.27</item>
+    <item name="wifi.scan">84</item>
     <item name="dsp.audio">18.3</item>
     <item name="dsp.video">47.5</item>
     <item name="camera.flashlight">160</item>
     <item name="camera.avg">550</item>
     <item name="gps.on">50</item>
-    <item name="radio.active">5.8</item>
+    <item name="radio.active">38.30</item>
     <item name="radio.scanning">6.4</item>
     <array name="radio.on">
-        <value>6.4</value>
-        <value>5.9</value>
+        <value>3.64</value>
+        <value>2.64</value>
     </array>
     <item name="modem.controller.idle">0</item>
     <item name="modem.controller.rx">0</item>
