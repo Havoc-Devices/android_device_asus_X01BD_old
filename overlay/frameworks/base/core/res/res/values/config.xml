@@ -469,6 +469,9 @@
      <!-- Whether device has screen with higher aspect ratio -->
     <bool name="config_haveHigherAspectRatioScreen">true</bool>
 
+      <!-- Enable dual LTE capability support-->
+     <bool name="config_dual_LTE_capability">true</bool>
+
     <!-- Whether the display cutout region of the main built-in display should be forced to
          black in software (to avoid aliasing or emulate a cutout that is not physically existent).
      -->
