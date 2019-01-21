@@ -430,6 +430,14 @@
          autodetected from the Configuration. -->
     <bool name="config_showNavigationBar">true</bool>
 
+
+     <!-- Height of the status bar -->
+    <dimen name="status_bar_height">86.0px</dimen>
+    <dimen name="status_bar_height_portrait">86.0px</dimen>
+    <dimen name="status_bar_height_landscape">24.0dip</dimen>
+
+
+
     <!-- Whether or not swipe up gesture is enabled by default -->
     <bool name="config_swipe_up_gesture_default">true</bool>
 
