@@ -67,8 +67,8 @@ if [ -f /vendor/bin/init.qcom.wifi.sh ]; then
 fi
 
 # Run the sensor script
-if [ -f /system/etc/init.qcom.sensor.sh ]; then
-   /vendor/bin/init.qcom.sensor.sh
+if [ -f /system/etc/init.qcom.sensors.sh ]; then
+   /vendor/bin/init.qcom.sensors.sh
 fi
 
 touch /system/etc/boot_fixup
