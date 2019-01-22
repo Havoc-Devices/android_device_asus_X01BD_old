@@ -92,6 +92,12 @@ on post-fs-data
     mkdir /data/misc/tloc 0700 system drmrpc
 
 on boot
+
+    # Wifi driver state control
+    chown wifi wifi /sys/kernel/boot_wlan/boot_wlan
+    # Wifi firmware reload path
+    chown wifi wifi /sys/module/wlan/parameters/fwpath
+
     start rmt_storage
     start rfs_access
     write /dev/cpuset/top-app/cpus 0-7
@@ -143,10 +149,6 @@ on boot
 
     chown radio radio sys/module/stk3x3x/parameters/call_status_flag
 #Huaqin add for als/ps permission by zhuqiang at 2018/8/03 end
-
-#Load WLAN driver
-   setprop wlan.driver.status "ok"
-   chown wifi wifi /sys/module/wlan/parameters/fwpath
 
 #Peripheral manager
 service per_mgr /vendor/bin/pm-service
