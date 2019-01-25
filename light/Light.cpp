@@ -17,7 +17,6 @@
 #define LOG_TAG "LightService"
 
 #include "Light.h"
-
 #include <android-base/logging.h>
 
 namespace {
@@ -198,10 +197,10 @@ void Light::setSpeakerBatteryLightLocked() {
         // Lights off
         mRedLed << 0 << std::endl;
         mGreenLed << 0 << std::endl;
-        mBlueLed << 0 << std::endl;
+        //mBlueLed << 0 << std::endl;
         mRedBlink << 0 << std::endl;
         mGreenBlink << 0 << std::endl;
-        mBlueBlink << 0 << std::endl;
+        //mBlueBlink << 0 << std::endl;
     }
 }
 
@@ -228,7 +227,8 @@ void Light::setSpeakerLightLocked(const LightState& state) {
     blink = onMs > 0 && offMs > 0;
 
     // Disable all blinking to start
-    mRgbBlink << 0 << std::endl;
+        mRedBlink << 0 << std::endl;
+        mGreenBlink << 0 << std::endl;
 
     if (blink) {
         stepDuration = RAMP_STEP_DURATION;
@@ -254,23 +254,24 @@ void Light::setSpeakerLightLocked(const LightState& state) {
         mGreenRampStepMs << stepDuration << std::endl;
 
         // Blue
-        mBlueStartIdx << RAMP_SIZE * 2 << std::endl;
+       /* mBlueStartIdx << RAMP_SIZE * 2 << std::endl;
         mBlueDutyPcts << getScaledDutyPcts(blue) << std::endl;
         mBluePauseLo << offMs << std::endl;
         mBluePauseHi << pauseHi << std::endl;
-        mBlueRampStepMs << stepDuration << std::endl;
+        mBlueRampStepMs << stepDuration << std::endl;*/
 
         // Start the party
-        mRgbBlink << 1 << std::endl;
+        mRedBlink << 1 << std::endl;
+        mGreenBlink << 1 << std::endl;
     } else {
         if (red == 0 && green == 0 && blue == 0) {
             mRedBlink << 0 << std::endl;
             mGreenBlink << 0 << std::endl;
-            mBlueBlink << 0 << std::endl;
+            //mBlueBlink << 0 << std::endl;
         }
         mRedLed << red << std::endl;
         mGreenLed << green << std::endl;
-        mBlueLed << blue << std::endl;
+        //mBlueLed << blue << std::endl;
     }
 }
 
