@@ -91,6 +91,10 @@ on post-fs-data
     mkdir /data/misc/seemp 0700 system system
     mkdir /data/misc/tloc 0700 system drmrpc
 
+# Tap to wake node
+    chown system system /proc/tpd_gesture
+    chmod 0660 /proc/tpd_gesture
+
 on boot
 
     # Wifi driver state control

@@ -234,6 +234,9 @@ PROTOBUF_SUPPORTED := true
 # Seccomp
 BOARD_SECCOMP_POLICY := $(DEVICE_PATH)/seccomp
 
+# Tap to wake
+TARGET_TAP_TO_WAKE_NODE := /proc/tpd_gesture
+
 # WiFi
 BOARD_HAS_QCOM_WLAN := true
 BOARD_HAS_QCOM_WLAN_SDK := true
