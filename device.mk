@@ -358,6 +358,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     textclassifier.smartselection.bundle1
 
+# Touchscreen
+PRODUCT_PACKAGES += \
+    libtinyxml2
+
 # USB
 PRODUCT_PACKAGES += \
 	android.hardware.usb@1.0-service
