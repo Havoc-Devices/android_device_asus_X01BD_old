@@ -101,6 +101,10 @@ PRODUCT_PACKAGES += \
     libqcomfm_jni \
     qcom.fmradio
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    fingerprintd
+
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@1.1-impl-qti \
