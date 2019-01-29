@@ -205,6 +205,10 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 # Peripheral manager
 TARGET_PER_MGR_ENABLED := true
 
+# Recovery
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/recovery.fstab
+BOARD_HAS_LARGE_FILESYSTEM := true
+
 # Releasetools
 TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_X01BD
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
