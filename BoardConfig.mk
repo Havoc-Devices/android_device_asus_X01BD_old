@@ -219,6 +219,9 @@ TARGET_PER_MGR_ENABLED := true
 # Peripheral manager
 TARGET_PER_MGR_ENABLED := true
 
+# QCOM hardware
+BOARD_USES_QCOM_HARDWARE := true
+
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/recovery.fstab
 BOARD_HAS_LARGE_FILESYSTEM := true
