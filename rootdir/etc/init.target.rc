@@ -525,14 +525,6 @@ service smcinvoked /system/bin/smcinvoked
    user system
    group system
 
-#Huaqin add for ZQL1650-43 by lanshiming at 2018/1/18 start
-service emmc_prop_init /vendor/bin/sh /vendor/bin/emmc_prop_init.sh
-    class core
-    user root
-    oneshot
-    disabled
-#Huaqin add for ZQL1650-43 by lanshiming at 2018/1/18 end
-
 # Huaqin modify for ZQL1820-1234 by lanshiming at 2018/11/13 start
 # For user build, we don't want the phone die when KE occur
 # Just reboot it
