@@ -1,1 +1,2 @@
 persist.net.doxlat               u:object_r:vendor_net_radio_prop:s0
+persist.camera.debug.logfile     u:object_r:camera_prop:s0
