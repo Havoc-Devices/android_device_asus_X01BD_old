@@ -311,8 +311,8 @@
     <ctl name="EAR PA Gain" value="POS_1P5_DB" />
     <ctl name="EAR PA Boost" value="ENABLE" />
 
-    <ctl name="RX1 Digital Volume" value="84" />
-    <ctl name="RX2 Digital Volume" value="84" />
+    <ctl name="RX1 Digital Volume" value="88" />
+    <ctl name="RX2 Digital Volume" value="88" />
     <ctl name="RX3 Digital Volume" value="84" />
     <ctl name="RX4 Digital Volume" value="84" />
     <ctl name="RX5 Digital Volume" value="84" />
@@ -1971,6 +1971,7 @@
         <ctl name="RDAC2 MUX" value="RX1" />
         <ctl name="EAR PA Gain" value="POS_6_DB" />
         <ctl name="EAR_S" value="Switch" />
+        <ctl name="RX1 Digital Volume" value="94" />
 	<!-- Huaqin add for optimize handset ctl path by xudayi at 2018/03/07 end -->
     </path>
 
