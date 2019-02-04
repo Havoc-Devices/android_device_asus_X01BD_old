@@ -25,22 +25,25 @@ $(call inherit-product, vendor/arrow/config/common.mk)
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-PRODUCT_BRAND := asus
-PRODUCT_DEVICE := X01BD
-PRODUCT_MANUFACTURER := asus
+# Device identifier. This must come after all inclusions.
 PRODUCT_NAME := arrow_X01BD
+PRODUCT_DEVICE := X01BD
+PRODUCT_BRAND := asus
 PRODUCT_MODEL := Zenfone Max Pro M2
+PRODUCT_MANUFACTURER := asus
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 
 TARGET_VENDOR := asus
 TARGET_VENDOR_PRODUCT_NAME := X01BD
+TARGET_VENDOR_DEVICE_NAME := X01BD
 
 PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
 
+PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=X01BD PRODUCT_NAME=X01BD
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME="X01BD" \
     PRIVATE_BUILD_DESC="sdm660_64-user 8.1.0 OPM1 3076 release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
