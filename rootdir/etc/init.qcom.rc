@@ -119,6 +119,22 @@ on boot
 
     setprop wifi.interface wlan0
 
+    # kcal
+    chown system system /sys/devices/platform/kcal_ctrl.0/kcal
+    chown system system /sys/devices/platform/kcal_ctrl.0/kcal_enable
+    chown system system /sys/devices/platform/kcal_ctrl.0/kcal_cont
+    chown system system /sys/devices/platform/kcal_ctrl.0/kcal_sat
+    chown system system /sys/devices/platform/kcal_ctrl.0/kcal_hue
+    chown system system /sys/devices/platform/kcal_ctrl.0/kcal_min
+    chown system system /sys/devices/platform/kcal_ctrl.0/kcal_val
+    chmod 0660 /sys/devices/platform/kcal_ctrl.0/kcal
+    chmod 0660 /sys/devices/platform/kcal_ctrl.0/kcal_enable
+    chmod 0660 /sys/devices/platform/kcal_ctrl.0/kcal_cont
+    chmod 0660 /sys/devices/platform/kcal_ctrl.0/kcal_sat
+    chmod 0660 /sys/devices/platform/kcal_ctrl.0/kcal_hue
+    chmod 0660 /sys/devices/platform/kcal_ctrl.0/kcal_min
+    chmod 0660 /sys/devices/platform/kcal_ctrl.0/kcal_val
+
 #   Define TCP buffer sizes for various networks
 #   ReadMin, ReadInitial, ReadMax, WriteMin, WriteInitial, WriteMax,
     setprop net.tcp.buffersize.wifi    524288,2097152,4194304,262144,524288,1048576
