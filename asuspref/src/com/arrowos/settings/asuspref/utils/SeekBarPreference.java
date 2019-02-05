@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.lineageos.settings.zukpref.utils;
+package com.arrowos.settings.asuspref.utils;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -35,8 +35,8 @@ import android.widget.TextView;
 import android.os.Handler;
 import android.os.Message;
 
-import com.lineageos.settings.zukpref.R;
-import com.lineageos.settings.zukpref.Utils;
+import com.arrowos.settings.asuspref.R;
+import com.arrowos.settings.asuspref.Utils;
 
 public class SeekBarPreference extends Preference {
 

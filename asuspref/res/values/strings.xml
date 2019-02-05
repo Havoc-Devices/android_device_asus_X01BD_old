@@ -13,7 +13,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="zukpref_title">ZUK Extras</string>
+    <string name="asuspref_title">ASUS Extras</string>
 	
     <!-- Category title -->
     <string name="graphics_title">Graphics</string>

@@ -15,7 +15,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package com.lineageos.settings.zukpref;
+package com.arrowos.settings.asuspref;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

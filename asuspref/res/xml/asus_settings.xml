@@ -6,7 +6,7 @@
 
         <PreferenceScreen
                 android:key="kcal"
-                android:fragment="com.lineageos.settings.zukpref.DisplayCalibration"
+                android:fragment="com.arrowos.settings.asuspref.DisplayCalibration"
                 android:summary="@string/kcal_summary"
                 android:title="@string/kcal_title" />
 

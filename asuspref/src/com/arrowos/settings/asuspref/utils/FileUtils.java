@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.lineageos.settings.zukpref.utils;
+package com.arrowos.settings.asuspref.utils;
 
 import android.util.Log;
 

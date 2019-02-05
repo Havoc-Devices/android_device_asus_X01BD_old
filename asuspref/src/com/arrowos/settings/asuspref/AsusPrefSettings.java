@@ -3,7 +3,7 @@
  *  Made by @andr68rus 2017
  */
 
-package com.lineageos.settings.zukpref;
+package com.arrowos.settings.asuspref;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -37,11 +37,11 @@ import java.io.*;
 import android.widget.Toast;
 import android.preference.ListPreference;
 
-import com.lineageos.settings.zukpref.R;
+import com.arrowos.settings.asuspref.R;
 
-public class ZukPrefSettings extends PreferenceActivity implements OnPreferenceChangeListener {
+public class AsusPrefSettings extends PreferenceActivity implements OnPreferenceChangeListener {
 	private static final boolean DEBUG = false;
-	private static final String TAG = "ZukPref";
+	private static final String TAG = "AsusPref";
 
         private Preference mKcalPref;
 
@@ -51,7 +51,7 @@ public class ZukPrefSettings extends PreferenceActivity implements OnPreferenceC
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.zuk_settings);
+        addPreferencesFromResource(R.xml.asus_settings);
         mKcalPref = findPreference("kcal");
                 mKcalPref.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
                      @Override

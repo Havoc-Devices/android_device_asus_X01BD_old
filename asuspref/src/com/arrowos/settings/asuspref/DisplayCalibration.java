@@ -15,7 +15,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package com.lineageos.settings.zukpref;
+package com.arrowos.settings.asuspref;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -32,8 +32,8 @@ import android.view.Menu;
 import android.view.MenuInflater;
 
 import android.app.ActionBar;
-import com.lineageos.settings.zukpref.utils.SeekBarPreference;
-import com.lineageos.settings.zukpref.R;
+import com.arrowos.settings.asuspref.utils.SeekBarPreference;
+import com.arrowos.settings.asuspref.R;
 
 public class DisplayCalibration extends PreferenceActivity implements
         OnPreferenceChangeListener {

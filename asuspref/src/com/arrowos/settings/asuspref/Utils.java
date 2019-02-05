@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.lineageos.settings.zukpref;
+package com.arrowos.settings.asuspref;
 
 import android.app.ActivityManager;
 import android.app.ActivityManager.RunningServiceInfo;
