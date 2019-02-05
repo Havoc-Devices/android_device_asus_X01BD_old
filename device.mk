@@ -166,7 +166,7 @@ PRODUCT_PACKAGES += \
 
 # Doze mode
 PRODUCT_PACKAGES += \
-    XiaomiDoze
+    AsusDoze
 
 # Fingerprint
 PRODUCT_PACKAGES += \
