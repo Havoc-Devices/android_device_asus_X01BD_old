@@ -530,13 +530,13 @@
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutout">
         M 0,0
-        L -183, 0
-        A 24.0, 24.0, 0, 0, 1, -159.0, 22.0
-        A 64.0, 64.0, 0, 0, 0, -95.0, 80.0
-        L 95.0, 80.0 A 64.0, 64.0, 0, 0, 0, 159.0, 22.0
-        A 24.0, 24.0, 0, 0, 1, 183.0, 0
-        Z
-    </string>
+        L -58, 0
+        L -40.9940446283, 10.0595537175
+        L -35, 27 L -35, 10.0595537175
+        L 35.2, 10.0595537175
+        L 35, 27
+        L 50, 0
+        Z @dp</string>
 
     <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveBatteryLed">true</bool>
