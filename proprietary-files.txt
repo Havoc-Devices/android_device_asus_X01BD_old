@@ -695,27 +695,63 @@ vendor/bin/dpmQmiMgr
 vendor/lib64/libdpmqmihal.so
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
 
-# DRM and SEE
+# DRM
+lib64/libGPTEE_system.so
+lib/libGPTEE_system.so
 vendor/bin/qseecomd
-vendor/lib/libcppf.so
-vendor/lib/libdiag.so
-vendor/lib/libdrmfs.so
-vendor/lib/libdrmtime.so
-vendor/lib/liboemcrypto.so
-vendor/lib/libqisl.so
-vendor/lib/librpmb.so
-vendor/lib/libssd.so
+vendor/lib64/libGPTEE_vendor.so
 vendor/lib64/libGPreqcancel.so
 vendor/lib64/libGPreqcancel_svc.so
 vendor/lib64/libQSEEComAPI.so
+vendor/lib64/libSecureUILib.so
 vendor/lib64/libStDrvInt.so
-vendor/lib64/libdiag.so
 vendor/lib64/libdrmfs.so
 vendor/lib64/libdrmtime.so
 vendor/lib64/libqisl.so
 vendor/lib64/librpmb.so
+vendor/lib64/libsecureui.so
 vendor/lib64/libsecureui_svcsock.so
 vendor/lib64/libssd.so
+vendor/lib64/libtzdrmgenprov.so
+vendor/lib/libGPTEE_vendor.so
+vendor/lib/libGPreqcancel.so
+vendor/lib/libGPreqcancel_svc.so
+vendor/lib/libQSEEComAPI.so
+vendor/lib/libSecureUILib.so
+vendor/lib/libStDrvInt.so
+vendor/lib/libdrmfs.so
+vendor/lib/libdrmtime.so
+vendor/lib/libqisl.so
+vendor/lib/librpmb.so
+vendor/lib/libsecureui.so
+vendor/lib/libsecureui_svcsock.so
+vendor/lib/libssd.so
+vendor/lib/libtzdrmgenprov.so
+
+# DRM - HDCP
+vendor/bin/hdcp1prov
+vendor/bin/hdcp2p2prov
+vendor/lib64/libhdcp1prov.so
+vendor/lib64/libhdcp2p2prov.so
+vendor/lib64/libwfdhdcpcp.so
+vendor/lib/libhdcp1prov.so
+vendor/lib/libhdcp2p2prov.so
+vendor/lib/libwfdhdcpcp.so
+vendor/lib/libwfdmodulehdcpsession.so
+
+# DRM - Qualcomm Trusted Execution Enviornment
+lib64/libQTEEConnector_system.so
+lib64/vendor.qti.hardware.qteeconnector@1.0.so
+lib/libQTEEConnector_system.so
+lib/vendor.qti.hardware.qteeconnector@1.0.so
+vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
+vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc
+vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
+vendor/lib64/libQTEEConnector_vendor.so
+vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
+vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
+vendor/lib/libQTEEConnector_vendor.so
+vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so
 
 # ESEP power
 lib/vendor.qti.esepowermanager@1.0.so
@@ -1359,10 +1395,12 @@ vendor/firmware/novatek_ts_fw_v8B.bin
 vendor/firmware/startup_fw_update.img
 
 # TUI
+lib/vendor.qti.hardware.tui_comm@1.0.so
+lib64/vendor.qti.hardware.tui_comm@1.0.so
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
-vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
+vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
 
 #Voice fingerprint
 vendor/bin/qvop-daemon
@@ -1385,57 +1423,11 @@ lib64/libvraudio.so
 vendor/lib/libvraudio_client.so
 vendor/lib64/libvraudio_client.so
 
-# Widevine DRM 
-lib/libGPTEE_system.so
-lib/libQTEEConnector_system.so
-lib/vendor.qti.hardware.qteeconnector@1.0.so
-lib64/libGPTEE_system.so
-lib64/libQTEEConnector_system.so
-lib64/vendor.qti.hardware.qteeconnector@1.0.so
-vendor/bin/e_loop
-vendor/bin/hw/android.hardware.drm@1.0-service.widevine
-vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc
-vendor/firmware/widevine.b00
-vendor/firmware/widevine.b01
-vendor/firmware/widevine.b02
-vendor/firmware/widevine.b03
-vendor/firmware/widevine.b04
-vendor/firmware/widevine.b05
-vendor/firmware/widevine.b06
-vendor/firmware/widevine.b07
-vendor/firmware/widevine.mdt
-vendor/lib/libGPTEE_vendor.so
-vendor/lib/libGPreqcancel.so
-vendor/lib/libGPreqcancel_svc.so
-vendor/lib/libQSEEComAPI.so
-vendor/lib/libSecureUILib.so
-vendor/lib/libStDrvInt.so
-vendor/lib/libbase64.so
-vendor/lib/libmm-hdcpmgr.so
-vendor/lib/librmp.so
-vendor/lib/libsdedrm.so
-vendor/lib/libsecureui.so
-vendor/lib/libsecureui_svcsock.so
-vendor/lib/libsi.so
-vendor/lib/libtzdrmgenprov.so
+# Widevine DRM
+vendor/bin/hw/android.hardware.drm@1.1-service.widevine
+vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
 vendor/lib/libwvhidl.so
-vendor/lib/mediadrm/libwvdrmengine.so
-vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so
-vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so
-vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so
-vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmdecrypt_customer.so
-vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so
-vendor/lib64/libGPTEE_vendor.so
-vendor/lib64/libSecureUILib.so
-vendor/lib64/libbase64.so
-vendor/lib64/libmm-hdcpmgr.so
-vendor/lib64/librmp.so
-vendor/lib64/libsdedrm.so
-vendor/lib64/libsecureui.so
-vendor/lib64/libsi.so
-vendor/lib64/libtzdrmgenprov.so
 vendor/lib64/libwvhidl.so
-vendor/lib64/mediadrm/libwvdrmengine.so
 
 #Wfd
 bin/wfdservice
