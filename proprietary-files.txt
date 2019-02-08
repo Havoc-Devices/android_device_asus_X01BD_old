@@ -1067,59 +1067,30 @@ vendor/lib64/vendor.display.color@1.0.so
 vendor/lib64/vendor.display.color@1.1.so
 vendor/lib64/vendor.display.postproc@1.0.so
 
-# Perf 
--vendor/app/Perfdump/Perfdump.apk
-lib/libqti-at.so
-lib/libqti-perfd-client_system.so
-lib/libqti_performance.so
-lib/vendor.qti.hardware.iop@1.0.so
-lib/vendor.qti.hardware.iop@2.0.so
-lib/vendor.qti.hardware.perf@1.0.so
-lib64/libqti-at.so
-lib64/libqti-perfd-client_system.so
-lib64/libqti-util_system.so
-lib64/libqti_performance.so
-lib64/vendor.qti.hardware.iop@1.0.so
-lib64/vendor.qti.hardware.iop@2.0.so
-lib64/vendor.qti.hardware.perf@1.0.so
+# Perf
 vendor/bin/energy-awareness
-vendor/bin/gamed
-vendor/bin/hw/vendor.qti.hardware.perf@1.0-service
 vendor/bin/msm_irqbalance
-vendor/bin/pm-proxy
-vendor/bin/pm-service
+vendor/bin/hw/vendor.qti.hardware.perf@1.0-service
 vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc
+vendor/etc/perf/commonresourceconfigs.xml
 vendor/etc/perf/perfboostsconfig.xml
-vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so
-vendor/lib/libfeedbackhandler.so
-vendor/lib/libperfgluelayer.so
-vendor/lib/libperipheral_client.so
-vendor/lib/libqti-gt-prop.so
-vendor/lib/libqti-iopd-client.so
+vendor/etc/perf/targetconfig.xml
+vendor/etc/perf/targetresourceconfigs.xml
 vendor/lib/libqti-perfd-client.so
 vendor/lib/libqti-perfd.so
 vendor/lib/libqti-util.so
-vendor/lib/libqti-utils.so
-vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so
-vendor/lib/vendor.qti.hardware.iop@2.0_vendor.so
-vendor/lib/vendor.qti.hardware.limits@1.0_vendor.so
-vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so
-vendor/lib/vendor.qti.hardware.wipower@1.0_vendor.so
-vendor/lib64/hw/vendor.qti.hardware.iop@1.0-impl.so
-vendor/lib64/libfeedbackhandler.so
+vendor/lib/vendor.qti.hardware.perf@1.0.so
 vendor/lib64/libperfgluelayer.so
-vendor/lib64/libperipheral_client.so
-vendor/lib64/libqti-gt-prop.so
-vendor/lib64/libqti-iopd-client.so
 vendor/lib64/libqti-perfd-client.so
 vendor/lib64/libqti-perfd.so
 vendor/lib64/libqti-util.so
-vendor/lib64/libqti-utils.so
-vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so
-vendor/lib64/vendor.qti.hardware.iop@2.0_vendor.so
-vendor/lib64/vendor.qti.hardware.limits@1.0_vendor.so
-vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so
-vendor/lib64/vendor.qti.hardware.wipower@1.0_vendor.so
+vendor/lib64/vendor.qti.hardware.perf@1.0.so
+
+# Peripheral manager
+vendor/bin/pm-proxy
+vendor/bin/pm-service
+vendor/lib/libperipheral_client.so
+vendor/lib64/libperipheral_client.so
 
 # Qmmi
 lib/libmmi.so
