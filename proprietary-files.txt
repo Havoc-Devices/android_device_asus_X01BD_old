@@ -1289,27 +1289,6 @@ vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
 
-#Voice fingerprint
-vendor/bin/qvop-daemon
-vendor/etc/qvop/antispoofing.bin
-vendor/etc/qvop/cmudict.bin
-vendor/etc/qvop/noisesample.bin
-vendor/etc/qvop/poc_64_hmm.gmm
-vendor/lib/libqvop-service.so
-vendor/lib64/libqvop-service.so
-
-#vr
-lib/libvr_amb_engine.so
-lib/libvr_object_engine.so
-lib/libvr_sam_wrapper.so
-lib/libvraudio.so
-lib64/libvr_amb_engine.so
-lib64/libvr_object_engine.so
-lib64/libvr_sam_wrapper.so
-lib64/libvraudio.so
-vendor/lib/libvraudio_client.so
-vendor/lib64/libvraudio_client.so
-
 # Widevine DRM
 vendor/bin/hw/android.hardware.drm@1.1-service.widevine
 vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
