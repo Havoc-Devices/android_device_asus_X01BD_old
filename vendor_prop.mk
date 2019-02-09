@@ -36,9 +36,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
  # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.bt.max.hs.connections=2 \
-    persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxhd-aac \
-    qcom.bluetooth.soc=cherokee \
-    vendor.qcom.bluetooth.soc=cherokee
+    vendor.qcom.bluetooth.soc=cherokee \
+    persist.vendor.btstack.enable.splita2dp=true \
+    persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxhd-aac \
+    persist.bt.max.a2dp.connections=2 \
+    persist.bt.enable.multicast=1 \
+    persist.bt.hfp.playbackforvr=false \
+    persist.bt.hfp.playbackforvoip=false
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -175,11 +179,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.dbg.volte_avail_ovr=1 \
     persist.dbg.vt_avail_ovr=1 \
     DEVICE_PROVISIONED=1 \
-    persist.radio.atfwd.start=true \
+    persist.vendor.radio.atfwd.start=true \
     persist.radio.multisim.config=dsds \
     persist.radio.schd.cache=3500 \
     persist.radio.VT_CAM_INTERFACE=1 \
-    persist.radio.VT_CAM_INTERFACE=2 \
     persist.vendor.qti.telephony.vt_cam_interface=1 \
     persist.vendor.radio.apm_sim_not_pwdn=1 \
     persist.vendor.radio.custom_ecc=1 \
