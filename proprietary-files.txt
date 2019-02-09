@@ -1259,17 +1259,10 @@ vendor/lib64/vendor.qti.ims.callinfo@1.0.so
 vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so
 
 # Sensors
--vendor/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar
-lib/android.hardware.sensors@1.0_x01bd.so
-lib64/android.hardware.sensors@1.0_x01bd.so
-vendor/bin/hw/android.hardware.sensors@1.0-service_x01bd
-vendor/etc/init/android.hardware.sensors@1.0-service_x01bd.rc
-vendor/bin/sensors.qcom
+-framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar:vendor/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar
+vendor/bin/sensors.qti
 vendor/etc/calmodule.cfg
 vendor/etc/sensors/sensor_def_qcomdev.conf
-vendor/lib/dualcali_dump.bin
-vendor/lib/hw/activity_recognition.sdm660.so
-vendor/lib/libcalmodule_common.so
 vendor/lib/libqmi_common_so.so
 vendor/lib/libsdsprpc.so
 vendor/lib/libsensor1.so
@@ -1278,10 +1271,6 @@ vendor/lib/libvtc_anti_algo.so
 vendor/lib/sensor_calibrate.so
 vendor/lib/sensors.native.so
 vendor/lib/sensors.ssc.so
-vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so
-vendor/lib64/hw/activity_recognition.sdm660.so
-vendor/lib64/hw/android.hardware.sensors@1.0-impl_x01bd.so
-vendor/lib64/libcalmodule_common.so
 vendor/lib64/libqmi_common_so.so
 vendor/lib64/libsdsprpc.so
 vendor/lib64/libsensor1.so
@@ -1290,7 +1279,12 @@ vendor/lib64/libvtc_anti_algo.so
 vendor/lib64/sensor_calibrate.so
 vendor/lib64/sensors.native.so
 vendor/lib64/sensors.ssc.so
+vendor/lib64/hw/activity_recognition.sdm660.so
+vendor/lib/hw/activity_recognition.sdm660.so
+vendor/lib64/libcalmodule_common.so
+vendor/lib/libcalmodule_common.so
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
+vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so
 
 # Thermal
 vendor/bin/thermal-engine
