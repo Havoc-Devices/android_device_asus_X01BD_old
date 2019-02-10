@@ -78,10 +78,10 @@ on early-boot
     chmod 0664 /persist/sensors/sensors_settings
 
     # Huaqin modify for ZQL1820P1-98 by wobo at 2018/11/19 start
-    chown root system /dev/input/event3  /*stk3x3x-light*/
+    chown root system /dev/input/event3
     chgrp system /dev/input/event3
 
-    chown root system /dev/input/event4  /*stk3x3x-proximity*/
+    chown root system /dev/input/event4
     chgrp system /dev/input/event4
     # Huaqin modify for ZQL1820P1-98 by wobo at 2018/11/19 end
 
@@ -320,10 +320,10 @@ on post-fs-data
     chmod 0644 /persist/flag/cid.txt
     chown system system /persist/flag/colorid.txt
     chmod 0644 /persist/flag/colorid.txt
-    /* Huaqin add for MULTI SIM by jindaolun at 2018/3/1 start*/
+    # Huaqin add for MULTI SIM by jindaolun at 2018/3/1 start
     chown system system /persist/flag/multisim.txt
     chmod 0644 /persist/flag/multisim.txt
-    /* Huaqin add for MULTI SIM by jindaolun at 2018/3/1 end*/
+    # Huaqin add for MULTI SIM by jindaolun at 2018/3/1 end
     # Huaqin add for ZQL1650-126 CountryCode by yangzhiyuan at 2018/01/23 end
 
     #create port-bridge log dir
@@ -1284,13 +1284,13 @@ service bugreport /system/bin/dumpstate -d -p -B -z -o /data/user_de/0/com.andro
     disabled
     oneshot
     keycodes 114 115 116
-/* Huaqin add for ZQL1820-42 by puqirui at 2018/08/02 start */
+# Huaqin add for ZQL1820-42 by puqirui at 2018/08/02 start 
 # ------------------- focal fingerprint begin -------------------
 on post-fs-data
 	mkdir /data/vendor/focaltech 0760 system system
 	restorecon /data/vendor/focaltech
 # ------------------- focal fingerprint end ---------------------
-/* Huaqin add for ZQL1820-42 by puqirui at 2018/08/02 start */
+# Huaqin add for ZQL1820-42 by puqirui at 2018/08/02 start
 
 # Huaqin modify for ZQL1820-1190 by yangzhiyuan at 2018/11/19 start
 on property:persist.asus.ramdump=1
