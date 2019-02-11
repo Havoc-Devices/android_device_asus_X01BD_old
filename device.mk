@@ -170,9 +170,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service \
-    fingerprintd
-
+    android.hardware.biometrics.fingerprint@2.1-service
 
 # Excluded Input devices
 PRODUCT_COPY_FILES += \
