@@ -1,0 +1,1 @@
+allow init nvram_country_exec:file x_file_perms;

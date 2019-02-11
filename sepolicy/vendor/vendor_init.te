@@ -17,4 +17,3 @@ allow vendor_init {
 allow vendor_init {
   unencrypted_data_file
 }:file { create getattr open read write setattr relabelfrom unlink };
-

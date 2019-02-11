@@ -1,0 +1,2 @@
+allow hal_fingerprint cdfinger_device:chr_file rw_file_perms;
+set_prop(hal_fingerprint, cdfinger_prop)

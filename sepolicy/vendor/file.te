@@ -1,0 +1,12 @@
+type sysfs_wifi, sysfs_type, fs_type;
+type debugfs_wlan, debugfs_type, fs_type;
+type vendor_kl_file, vendor_file_type, file_type;
+
+# Fingerprint
+type gxfingerprint_device, file_type, dev_type;
+type cdfinger_device, file_type, dev_type;
+type focaltech_device, file_type, dev_type;
+type gxfingerprint_data_file, data_file_type, file_type;
+type cdfinger_data_file, data_file_type, file_type;
+type focaltech_data_file, data_file_type, file_type;
+type sysfs_call_status, sysfs_type, fs_type;
