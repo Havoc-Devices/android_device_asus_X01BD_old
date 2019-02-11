@@ -823,27 +823,22 @@ vendor/firmware/cppf.b07
 vendor/firmware/cppf.mdt
 
 # GPS
--vendor/lib64/libloc_api_v02.so
+vendor/bin/hw/vendor.qti.gnss@2.0-service
 vendor/bin/DR_AP_Service
 vendor/bin/garden_app
-vendor/bin/hw/vendor.qti.gnss@2.0-service
 vendor/bin/loc_launcher
 vendor/bin/lowi-server
+vendor/bin/slim_daemon
 vendor/bin/xtra-daemon
 vendor/etc/cacert_location.pem
-vendor/etc/init/vendor.qti.gnss@2.0-service.rc
 vendor/etc/xtra_root_cert.pem
-vendor/lib/hw/vendor.qti.gnss@2.0-impl.so
-vendor/lib/vendor.qti.gnss@1.0.so
-vendor/lib/vendor.qti.gnss@1.1.so
-vendor/lib/vendor.qti.gnss@1.2.so
-vendor/lib/vendor.qti.gnss@2.0.so
+vendor/etc/init/vendor.qti.gnss@2.0-service.rc
 vendor/lib64/hw/vendor.qti.gnss@2.0-impl.so
-vendor/lib64/libDRPlugin.so
 vendor/lib64/lib_drplugin_server.so
 vendor/lib64/libalarmservice_jni.so
 vendor/lib64/libdataitems.so
 vendor/lib64/libdrplugin_client.so
+vendor/lib64/libDRPlugin.so
 vendor/lib64/libevent_observer.so
 vendor/lib64/libflp.so
 vendor/lib64/libgdtap.so
@@ -851,10 +846,11 @@ vendor/lib64/libgeofence.so
 vendor/lib64/libizat_client_api.so
 vendor/lib64/libizat_core.so
 vendor/lib64/liblbs_core.so
+vendor/lib64/libloc_api_v02.so
 vendor/lib64/libloc_ds_api.so
 vendor/lib64/libloc_externalDr.so
-vendor/lib64/liblocationservice.so
 vendor/lib64/liblocationservice_glue.so
+vendor/lib64/liblocationservice.so
 vendor/lib64/liblowi_client.so
 vendor/lib64/liblowi_wifihal.so
 vendor/lib64/libquipc_os_api.so
