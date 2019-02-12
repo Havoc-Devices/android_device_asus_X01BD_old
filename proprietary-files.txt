@@ -38,8 +38,6 @@ vendor/lib/rfsa/adsp/libvpp_svc_skel.so
 lib/com.qualcomm.qti.ant@1.0.so
 -lib64/libantradio.so|fb958cb68c99c71455f969afdf96225f5110f0df
 lib64/com.qualcomm.qti.ant@1.0.so
-vendor/lib/com.qualcomm.qti.ant@1.0.so
-vendor/lib64/com.qualcomm.qti.ant@1.0.so
 
 # APTx
 vendor/lib64/libaptX_encoder.so
@@ -103,16 +101,26 @@ vendor/lib64/libalarmservice_jni.so
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 
 # Bluetooth
-vendor/bin/btnvtool
-vendor/bin/hci_qcomm_init
+lib/com.qualcomm.qti.bluetooth_audio@1.0.so
+lib64/com.qualcomm.qti.bluetooth_audio@1.0.so
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib/libbt-hidlclient.so
 vendor/lib/libbtnv.so
+vendor/lib/libbt-hidlclient.so
+vendor/lib/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so
+vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so
+vendor/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so
+vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib64/libbt-hidlclient.so
 vendor/lib64/libbtnv.so
+vendor/lib64/libbt-hidlclient.so
+
+# Bluetooth (shared)
+vendor/lib/com.qualcomm.qti.ant@1.0.so
+vendor/lib/vendor.qti.hardware.fm@1.0.so
+vendor/lib64/com.qualcomm.qti.ant@1.0.so
+vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
 # Camera
 vendor/lib/hw/camera.sdm660.so
@@ -705,10 +713,10 @@ lib/fm_helium.so
 lib/libfm-hci.so
 lib64/fm_helium.so
 lib64/libfm-hci.so
+vendor/lib/vendor.qti.hardware.fm@1.0.so
 vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so
-vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so
+vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
@@ -1021,15 +1029,6 @@ vendor/bin/pm-service
 vendor/lib/libperipheral_client.so
 vendor/lib64/libperipheral_client.so
 
-# Qmmi
-lib/libmmi.so
--vendor/app/Qmmi/Qmmi.apk
-vendor/bin/nvram_btwifi
-vendor/bin/nvram_country
-vendor/lib64/libmmi_jni.so
-lib64/libmmi.so
-vendor/lib/libmmi_jni.so
-
 # QMI
 etc/permissions/qti_permissions.xml
 etc/permissions/qti_libpermissions.xml
@@ -1292,4 +1291,5 @@ vendor/lib/libwfdmodulehdcpsession.so
 vendor/lib64/libwfdhdcpcp.so
 
 # WiFi
+vendor/bin/cnss_diag
 vendor/bin/cnss-daemon
