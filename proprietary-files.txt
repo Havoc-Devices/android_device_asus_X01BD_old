@@ -45,6 +45,11 @@ vendor/lib64/com.qualcomm.qti.ant@1.0.so
 vendor/lib64/libaptX_encoder.so
 vendor/lib64/libaptXHD_encoder.so
 
+# ASUS
+bin/nvram_btwifi:vendor/bin/nvram_btwifi
+lib64/libmmi.so:vendor/lib64/libmmi.so
+lib/libmmi.so:vendor/lib/libmmi.so
+
 # Audio ACDB
 vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_General_cal.acdb
@@ -1204,15 +1209,14 @@ vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so
 
 # Thermal
 vendor/bin/thermal-engine
-vendor/etc/thermal-engine.conf
 vendor/lib/libthermalclient.so
 vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalioctl.so
 
 # Time services
 -vendor/app/TimeService/TimeService.apk
--vendor/lib/libtime_genoff.so
--vendor/lib64/libtime_genoff.so
+vendor/lib/libtime_genoff.so
+vendor/lib64/libtime_genoff.so
 vendor/bin/time_daemon
 
 #Touchscreen Firmware
