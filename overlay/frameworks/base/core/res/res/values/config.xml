@@ -474,10 +474,9 @@
     <bool name="config_showNavigationBar">true</bool>
 
      <!-- Height of the status bar -->
-    <dimen name="status_bar_height">86.0px</dimen>
-    <dimen name="status_bar_height_portrait">86.0px</dimen>
-    <dimen name="status_bar_height_landscape">24.0dip</dimen>
-
+    <dimen name="status_bar_height">81.px</dimen>
+    <dimen name="status_bar_height_portrait">81.0px</dimen>
+    <dimen name="status_bar_height_landscape">81.0px</dimen>
 
      <!-- Hardware keys present on the device, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
