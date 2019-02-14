@@ -1264,7 +1264,7 @@ vendor/firmware/Himax_firmware.bin
 vendor/firmware/aw87339_kspk.bin
 vendor/firmware/hx_criteria.csv
 vendor/firmware/mono.cnt
-vendor/firmware/novatek_ts_fw_v8B.bin
+vendor/firmware/novatek_ts_fw_v8C.bin
 vendor/firmware/startup_fw_update.img
 
 # TUI
