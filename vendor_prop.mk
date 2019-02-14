@@ -236,12 +236,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.timed.enable=true
 
-# WFD display
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.debug.wfd.enable=1 \
-    persist.hwc.enable_vds=1 \
-    persist.sys.wfd.virtual=0
-
 # ZRAM
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.qti.config.zram=true

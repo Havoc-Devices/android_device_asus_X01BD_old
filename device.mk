@@ -151,6 +151,14 @@ PRODUCT_PACKAGES += \
     memtrack.sdm660 \
     libgenlock
 
+# Display (for wfd)
+PRODUCT_PACKAGES += \
+    vendor.display.config@1.0
+
+# WiFi Display
+PRODUCT_PACKAGES += \
+    libnl
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
