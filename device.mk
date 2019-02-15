@@ -259,6 +259,11 @@ PRODUCT_PACKAGES += \
     SecureElement \
     Tag \
 
+# NFC-Secure Element
+PRODUCT_PACKAGES += \
+    android.hardware.secure_element@1.0-service \
+    SecureElement
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
