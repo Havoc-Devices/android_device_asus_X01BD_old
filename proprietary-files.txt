@@ -1149,7 +1149,7 @@ etc/permissions/qcrilhook.xml
 etc/permissions/telephonyservice.xml
 framework/QtiTelephonyServicelibrary.jar
 framework/embmslibrary.jar
-framework/qti-telephony-common.jar
+framework/qti-telephony-common.jar|b1953a3599255f08f1785c677d22810f65e0167b
 lib64/librcc.so
 vendor/bin/ATFWD-daemon
 vendor/bin/diag_callback_sample
