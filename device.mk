@@ -204,14 +204,14 @@ PRODUCT_PACKAGES += \
     libsensorndkbridge \
     libvehiclenetwork-native
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/gps/configs/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
-    $(LOCAL_PATH)/gps/configs/flp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/flp.conf \
-    $(LOCAL_PATH)/gps/configs/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
-    $(LOCAL_PATH)/gps/configs/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
-    $(LOCAL_PATH)/gps/configs/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
-    $(LOCAL_PATH)/gps/configs/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
-    $(LOCAL_PATH)/gps/configs/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf
+PRODUCT_PACKAGES += \
+    apdr.conf \
+    flp.conf \
+    izat.conf \
+    lowi.conf \
+    sap.conf \
+    gps.conf \
+    xtwifi.conf
 
 # Keylayout
 PRODUCT_COPY_FILES += \
