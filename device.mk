@@ -159,7 +159,7 @@ PRODUCT_PACKAGES += \
 
 # Display (for wfd)
 PRODUCT_PACKAGES += \
-    vendor.display.config@1.0
+    vendor.display.config@1.3
 
 # WiFi Display
 PRODUCT_PACKAGES += \
