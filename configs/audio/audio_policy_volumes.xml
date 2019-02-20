@@ -63,9 +63,9 @@ volume index from 0 to 100.
                                        ref="DEFAULT_DEVICE_CATEGORY_HEADSET_VOLUME_CURVE"/>
     <!-- huaqin modified  by chenqiang at 20180327  for shipping start -->
     <volume stream="AUDIO_STREAM_RING" deviceCategory="DEVICE_CATEGORY_SPEAKER">
-        <point>1,-5500</point>
-        <point>33,-3010</point>
-        <point>66,-1520</point>
+        <point>1,-3800</point>
+        <point>33,-2400</point>
+        <point>66,-1220</point>
         <point>100,0</point>
     </volume>
     <volume stream="AUDIO_STREAM_RING" deviceCategory="DEVICE_CATEGORY_EARPIECE"
@@ -76,8 +76,12 @@ volume index from 0 to 100.
                                        ref="DEFAULT_HEARING_AID_VOLUME_CURVE"/>
     <volume stream="AUDIO_STREAM_MUSIC" deviceCategory="DEVICE_CATEGORY_HEADSET"
                                         ref="DEFAULT_MEDIA_VOLUME_CURVE"/>
-    <volume stream="AUDIO_STREAM_MUSIC" deviceCategory="DEVICE_CATEGORY_SPEAKER"
-                                        ref="DEFAULT_DEVICE_CATEGORY_SPEAKER_VOLUME_CURVE"/>
+    <volume stream="AUDIO_STREAM_MUSIC" deviceCategory="DEVICE_CATEGORY_SPEAKER">
+        <point>1,-4570</point>
+        <point>33,-3000</point>
+        <point>66,-1320</point>
+        <point>100,0</point>
+    </volume>
     <volume stream="AUDIO_STREAM_MUSIC" deviceCategory="DEVICE_CATEGORY_EARPIECE"
                                         ref="DEFAULT_MEDIA_VOLUME_CURVE"/>
     <volume stream="AUDIO_STREAM_MUSIC" deviceCategory="DEVICE_CATEGORY_EXT_MEDIA"
@@ -88,14 +92,9 @@ volume index from 0 to 100.
                                         ref="DEFAULT_NON_MUTABLE_HEADSET_VOLUME_CURVE"/>
     <volume stream="AUDIO_STREAM_ALARM" deviceCategory="DEVICE_CATEGORY_SPEAKER">
     <!-- update from android O to P wanjunyan 20181013 start -->
-        <point>1,-5500</point>
-        <point>33,-3010</point>
-        <point>66,-1520</point>
-        <!--
-        <point>0,-2970</point>
-        <point>33,-2010</point>
-        <point>66,-1020</point>
-        -->
+        <point>1,-3800</point>
+        <point>33,-2400</point>
+        <point>66,-1220</point>
         <point>100,0</point>
     <!-- update from android O to P wanjunyan 20181013 end -->
     </volume>
@@ -108,9 +107,9 @@ volume index from 0 to 100.
     <volume stream="AUDIO_STREAM_NOTIFICATION" deviceCategory="DEVICE_CATEGORY_HEADSET"
                                                ref="DEFAULT_DEVICE_CATEGORY_HEADSET_VOLUME_CURVE"/>
     <volume stream="AUDIO_STREAM_NOTIFICATION" deviceCategory="DEVICE_CATEGORY_SPEAKER">
-        <point>1,-5500</point>
-        <point>33,-3010</point>
-        <point>66,-1520</point>
+        <point>1,-3800</point>
+        <point>33,-2400</point>
+        <point>66,-1220</point>
         <point>100,0</point>
     </volume>
    <!-- huaqin modified  by chenqiang at 20180327  for shipping end -->
