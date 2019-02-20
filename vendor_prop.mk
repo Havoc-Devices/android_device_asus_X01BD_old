@@ -137,7 +137,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.vidc.enc.disable.pq=false \
     vendor.vidc.enc.disable_bframes=1 \
     vidc.enc.dcvs.extra-buff-count=2 \
-    vidc.enc.target_support_bframe=1
+    vidc.enc.target_support_bframe=1 \
+    ro.config.media_vol_steps=30 \
 
 # Misc
 PRODUCT_PROPERTY_OVERRIDES += \
