@@ -1122,9 +1122,9 @@ vendor/lib64/libperipheral_client.so
 # QMI
 etc/permissions/qti_libpermissions.xml
 etc/permissions/qti_permissions.xml
-lib/libdiag_system.so:vendor/lib/libdiag_system.so
+lib/libdiag_system.so
 lib/libqmi_cci_system.so:vendor/lib/libqmi_cci_system.so
-lib64/libdiag_system.so:vendor/lib64/libdiag_system.so
+lib64/libdiag_system.so
 lib64/libqmi_cci_system.so:vendor/lib64/libqmi_cci_system.so
 vendor/bin/irsc_util
 vendor/lib/libdiag.so
@@ -1285,7 +1285,7 @@ lib/lib-imsvideocodec.so:vendor/lib/lib-imsvideocodec.so
 lib/lib-imsvtextutils.so:vendor/lib/lib-imsvtextutils.so
 lib/lib-imsvtutils.so:vendor/lib/lib-imsvtutils.so
 lib/libimscamera_jni.so:vendor/lib/libimscamera_jni.so
-lib/libimsmedia_jni.so:vendor/lib/libimsmedia_jni.so
+lib/libimsmedia_jni.so
 lib/vendor.qti.imsrtpservice@1.0.so:vendor/lib/vendor.qti.imsrtpservice@1.0.so
 lib64/com.qualcomm.qti.imscmservice@2.0.so
 lib64/com.qualcomm.qti.imscmservice@2.1.so
@@ -1295,7 +1295,7 @@ lib64/lib-imsvt.so:vendor/lib64/lib-imsvt.so
 lib64/lib-imsvtextutils.so:vendor/lib64/lib-imsvtextutils.so
 lib64/lib-imsvtutils.so:vendor/lib64/lib-imsvtutils.so
 lib64/libimscamera_jni.so:vendor/lib64/libimscamera_jni.so
-lib64/libimsmedia_jni.so:vendor/lib64/libimsmedia_jni.so
+lib64/libimsmedia_jni.so
 lib64/vendor.qti.imsrtpservice@1.0.so:vendor/lib64/vendor.qti.imsrtpservice@1.0.so
 vendor/bin/ims_rtp_daemon
 vendor/bin/imsdatadaemon
