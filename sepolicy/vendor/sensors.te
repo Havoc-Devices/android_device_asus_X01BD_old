@@ -1,0 +1,1 @@
+allow sensors nfc_sensors_prop:file r_file_perms;

@@ -14,3 +14,6 @@ persist.bt.max.hs.connections                 u:object_r:vendor_cfg_prop:s0
 
 # TODO
 sys.usb.configfs                              u:object_r:vendor_usb_prop:s0
+
+# meh this should have been covered already?
+qemu.hw.mainkeys                              u:object_r:vendor_cfg_prop:s0
