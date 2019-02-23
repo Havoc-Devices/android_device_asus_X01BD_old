@@ -233,6 +233,9 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 TARGET_RIL_VARIANT := caf
 PROTOBUF_SUPPORTED := true
 
+# root extra folders
+BOARD_ROOT_EXTRA_FOLDERS := bt_firmware dsp firmware persist
+
 # Seccomp
 BOARD_SECCOMP_POLICY := $(DEVICE_PATH)/seccomp
 
