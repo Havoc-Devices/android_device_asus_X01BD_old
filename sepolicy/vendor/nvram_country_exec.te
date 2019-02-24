@@ -1,2 +1,0 @@
-type nvram_country, domain;
-type nvram_country_exec, exec_type, vendor_file_type, file_type;

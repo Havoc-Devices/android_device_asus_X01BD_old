@@ -1,0 +1,4 @@
+# Biometrics
+type gxfingerprint_device, dev_type;
+type cdfinger_device, dev_type;
+type focaltech_device, dev_type;

@@ -40,8 +40,8 @@ lib/com.qualcomm.qti.ant@1.0.so
 lib64/com.qualcomm.qti.ant@1.0.so
 
 # APTx
-vendor/lib64/libaptX_encoder.so
-vendor/lib64/libaptXHD_encoder.so
+lib64/libaptX_encoder.so
+lib64/libaptXHD_encoder.so
 
 # ASUS
 bin/nvram_btwifi:vendor/bin/nvram_btwifi
@@ -1280,21 +1280,21 @@ framework/vendor.qti.ims.callinfo-V1.0-java.jar:vendor/framework/vendor.qti.ims.
 framework/vendor.qti.ims.rcsconfig-V1.0-java.jar:vendor/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar
 lib/com.qualcomm.qti.imscmservice@2.0.so
 lib/com.qualcomm.qti.imscmservice@2.1.so
-lib/lib-imscamera.so:vendor/lib/lib-imscamera.so
-lib/lib-imsvideocodec.so:vendor/lib/lib-imsvideocodec.so
-lib/lib-imsvtextutils.so:vendor/lib/lib-imsvtextutils.so
-lib/lib-imsvtutils.so:vendor/lib/lib-imsvtutils.so
-lib/libimscamera_jni.so:vendor/lib/libimscamera_jni.so
+lib/lib-imscamera.so
+lib/lib-imsvideocodec.so
+lib/lib-imsvtextutils.so
+lib/lib-imsvtutils.so
+lib/libimscamera_jni.so
 lib/libimsmedia_jni.so
 lib/vendor.qti.imsrtpservice@1.0.so:vendor/lib/vendor.qti.imsrtpservice@1.0.so
 lib64/com.qualcomm.qti.imscmservice@2.0.so
 lib64/com.qualcomm.qti.imscmservice@2.1.so
 lib64/lib-imscamera.so:vendor/lib64/lib-imscamera.so
-lib64/lib-imsvideocodec.so:vendor/lib64/lib-imsvideocodec.so
-lib64/lib-imsvt.so:vendor/lib64/lib-imsvt.so
-lib64/lib-imsvtextutils.so:vendor/lib64/lib-imsvtextutils.so
-lib64/lib-imsvtutils.so:vendor/lib64/lib-imsvtutils.so
-lib64/libimscamera_jni.so:vendor/lib64/libimscamera_jni.so
+lib64/lib-imsvideocodec.so
+lib64/lib-imsvt.so
+lib64/lib-imsvtextutils.so
+lib64/lib-imsvtutils.so
+lib64/libimscamera_jni.so
 lib64/libimsmedia_jni.so
 lib64/vendor.qti.imsrtpservice@1.0.so:vendor/lib64/vendor.qti.imsrtpservice@1.0.so
 vendor/bin/ims_rtp_daemon
