@@ -45,8 +45,8 @@ lib64/libaptXHD_encoder.so
 
 # ASUS
 bin/nvram_btwifi:vendor/bin/nvram_btwifi
-lib64/libmmi.so:vendor/lib64/libmmi.so
-lib/libmmi.so:vendor/lib/libmmi.so
+lib64/libmmi.so
+lib/libmmi.so
 
 # Audio ACDB
 vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb
@@ -1286,17 +1286,17 @@ lib/lib-imsvtextutils.so
 lib/lib-imsvtutils.so
 lib/libimscamera_jni.so
 lib/libimsmedia_jni.so
-lib/vendor.qti.imsrtpservice@1.0.so:vendor/lib/vendor.qti.imsrtpservice@1.0.so
+lib/vendor.qti.imsrtpservice@1.0.so
 lib64/com.qualcomm.qti.imscmservice@2.0.so
 lib64/com.qualcomm.qti.imscmservice@2.1.so
-lib64/lib-imscamera.so:vendor/lib64/lib-imscamera.so
+lib64/lib-imscamera.so
 lib64/lib-imsvideocodec.so
 lib64/lib-imsvt.so
 lib64/lib-imsvtextutils.so
 lib64/lib-imsvtutils.so
 lib64/libimscamera_jni.so
 lib64/libimsmedia_jni.so
-lib64/vendor.qti.imsrtpservice@1.0.so:vendor/lib64/vendor.qti.imsrtpservice@1.0.so
+lib64/vendor.qti.imsrtpservice@1.0.so
 vendor/bin/ims_rtp_daemon
 vendor/bin/imsdatadaemon
 vendor/bin/imsqmidaemon
