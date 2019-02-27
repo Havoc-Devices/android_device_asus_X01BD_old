@@ -1049,6 +1049,12 @@ service wifi-sdio-on /vendor/bin/init.qcom.sdio.sh
 on property:sys.boot_completed=1
     start qcom-post-boot
 
+on property:vendor.hw.fm.init=0
+    write /sys/module/radio_iris_transport/parameters/fmsmd_set 0
+
+on property:vendor.hw.fm.init=1
+    write /sys/module/radio_iris_transport/parameters/fmsmd_set 1
+
 on property:ro.vendor.ril.mbn_copy_completed=1
     write /data/vendor/radio/copy_complete 1
 service qvop-daemon /vendor/bin/qvop-daemon
