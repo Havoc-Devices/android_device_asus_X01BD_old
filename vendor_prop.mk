@@ -123,6 +123,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.early_phase_offset_ns=5000000 \
     debug.sf.hw=1 \
     debug.sf.latch_unsignaled=1 \
+    debug.cpurend.vsync=false \
     dev.pm.dyn_samplingrate=1 \
     persist.demo.hdmirotationlock=false \
     ro.opengles.version=196610 \
