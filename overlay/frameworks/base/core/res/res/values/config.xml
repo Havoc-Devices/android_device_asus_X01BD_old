@@ -483,10 +483,10 @@
         M 0,0
         L -58, 0
         L -40.9940446283, 10.0595537175
-        L -35, 27 L -35, 10.0595537175
+        L -35, 31
+        L -35, 10.0595537175
         L 35.2, 10.0595537175
-        L 35, 27
-        L 50, 0
+        L 35, 31
         Z @dp</string>
 
     <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
