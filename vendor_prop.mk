@@ -150,6 +150,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.opa.eligible_device=true \
     ro.sys.fw.use_trim_settings=true
 
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.havoc.maintainer=SonalSingh
+
 # Netflix
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.netflix.bsp_rev=Q660-13149-1

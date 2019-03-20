@@ -1,0 +1,16 @@
+[
+  {
+    "repository":  "android_kernel_asus_sdm660",
+    "target_path": "kernel/asus/sdm660"
+  },
+  {
+    "repository":  "android_vendor_asus_X01BD",
+    "target_path": "vendor/asus/X01BD"
+  },
+  {
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "lineage-16.0"
+    "remote": "github"
+  }
+]
