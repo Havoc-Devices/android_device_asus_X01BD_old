@@ -17,3 +17,10 @@ sys.usb.configfs                              u:object_r:vendor_usb_prop:s0
 
 # meh this should have been covered already?
 qemu.hw.mainkeys                              u:object_r:vendor_cfg_prop:s0
+
+# Asus bokeh camera 
+vendor.debug.camera.prop_picselfie            u:object_r:vendor_camera_prop:s0
+vendor.debug.camera.prop_bokeh                u:object_r:vendor_camera_prop:s0
+vendor.debug.camera.prop_hdr                  u:object_r:vendor_camera_prop:s0
+persist.vendor.camera.bokeh.dumpimg           u:object_r:vendor_camera_prop:s0
+vendor.debug.camera.prop_dis                  u:object_r:vendor_camera_prop:s0
