@@ -24,3 +24,6 @@ vendor.debug.camera.prop_bokeh                u:object_r:vendor_camera_prop:s0
 vendor.debug.camera.prop_hdr                  u:object_r:vendor_camera_prop:s0
 persist.vendor.camera.bokeh.dumpimg           u:object_r:vendor_camera_prop:s0
 vendor.debug.camera.prop_dis                  u:object_r:vendor_camera_prop:s0
+
+# Spectrum
+persist.spectrum.profile    u:object_r:spectrum_prop:s0
