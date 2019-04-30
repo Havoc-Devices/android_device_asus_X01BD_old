@@ -52,9 +52,7 @@
 #define WLAN_POWER_STAT "/d/wlan0/power_stats"
 #endif
 
-#ifndef TAP_TO_WAKE_NODE
 #define TAP_TO_WAKE_NODE "/proc/tpd_gesture"
-#endif
 
 #define ARRAY_SIZE(x) (sizeof((x))/sizeof((x)[0]))
 #define LINE_SIZE 128
