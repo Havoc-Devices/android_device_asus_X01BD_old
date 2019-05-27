@@ -670,4 +670,7 @@
     <string name="config_SmartChargingSupspendValue" translatable="false">0</string>
     <string name="config_SmartChargingResumeValue" translatable="false">1</string>
 
+    <!-- Show battery fully charged notification -->
+    <bool name="config_showBatteryFullyChargedNotification">true</bool>
+
 </resources>
