@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The HavocOS Project
+# Copyright (C) 2018 The Bootleggers Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -20,10 +20,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Inherit some common HavocOS stuff
-$(call inherit-product, vendor/havoc/config/common.mk)
+$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 
-# Official
-export export HAVOC_BUILD_TYPE=Official
+
+
 
 # Bootanimation
 TARGET_SCREEN_WIDTH := 1080
@@ -33,7 +33,7 @@ TARGET_SCREEN_HEIGHT := 2280
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := havoc_X01BD
+PRODUCT_NAME := bootleg_X01BD
 PRODUCT_DEVICE := X01BD
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := Zenfone Max Pro M2
@@ -54,3 +54,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="jason-user 7.1.1 NMF26X V9.6.2.0.NCHMIFD release-keys"
 
 BUILD_FINGERPRINT := "Xiaomi/jason/jason:7.1.1/NMF26X/V9.6.2.0.NCHMIFD:user/release-keys"
+
+# Bootleg Exports
+BOOTLEG_BUILD_TYPE=UnShishufied
+DEVICE_MAINTAINERS=Nanuzn
