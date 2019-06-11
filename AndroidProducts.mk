@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The HavocOS Project
+# Copyright (C) 2018 The BootLeggers Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_X01BD.mk
+    $(LOCAL_DIR)/Bootleg_X01BD.mk
